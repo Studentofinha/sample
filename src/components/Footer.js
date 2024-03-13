@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({product}) => {
+
   return (
     <div>
-      This is footer
+      This is footer {product.name}
     </div>
   )
 }
